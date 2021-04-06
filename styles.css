@@ -17,8 +17,34 @@
         height: 100vh;
 }
 
-header {
+.header {
     grid-area: h;
-    background-color: ;
+    background-color: #6e6a86;
+}
+
+.side{
+    grid-area: s;
+    background-color: #2a273f;
+    padding: 5px
+}
+
+.side h1{
+    font-size: 3rem;
+    color: #ea9d34;
+}
+
+.side ul{
+    overflow: auto;
+}
+
+.main{
+    grid-area: m;
+    background-color: #b4637a;
+    color: #575279;
+    font-size: 2rem;
+}
+
+li{
+    font-size: #ea9d34;
 }
 
