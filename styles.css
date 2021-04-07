@@ -45,6 +45,42 @@
 }
 
 li{
-    font-size: #ea9d34;
+    font-size: 2rem;
+    color: #ea9d34;
+    list-style-type: none;
+    margin-right: 3rem;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.note-area{
+    margin: 10px;
+    max-width: 500px;
+}
+
+.textinput{
+    height: 150px;
+    background-color: #e0def4;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+button {
+    background-color: ;
+    color: ;
+    border: none;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.note-btns {
+    display:flex;
+    justify-content: flex-end;
 }
 
