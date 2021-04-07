@@ -15,22 +15,26 @@
         's f';
     width: 100vw;
     height: 100vh;
+    background-color: #b4637a;
 }
 
 .header {
     grid-area: h;
-    background-color: #6e6a86;
+    background-color: #b4637a;    
 }
 
 .side{
     grid-area: s;
     background-color: #2a273f;
-    padding: 5px
+    padding: 5px;
+    justify-content: center;
 }
 
 .side h1{
     font-size: 3rem;
     color: #ea9d34;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 .side ul{
@@ -49,6 +53,7 @@ li{
     color: #ea9d34;
     list-style-type: none;
     margin-right: 3rem;
+    margin-bottom: 0;
 }
 
 .top{
@@ -70,8 +75,7 @@ li{
 }
 
 button {
-    background-color: ;
-    color: ;
+    color: red;
     border: none;
     border-radius: 5px;
     font-size: 2rem;
@@ -86,11 +90,10 @@ button {
 
 footer {
     grid-area: f;
-    background-color: ;
+    background-color: #b4637a;
     display: flex;
     justify-content: center;
 }
 footer p {
-    color: ;
     font-size: 2rem;
 }
