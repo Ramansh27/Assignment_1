@@ -35,6 +35,19 @@
     color: #ea9d34;
     margin-top: 0.5em;
     margin-bottom: 1em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.slide {
+    border: 5px;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #2a273f;
+    color: #ea9d34;
 }
 
 .side ul{
@@ -91,7 +104,6 @@ li{
 }
 
 button {
-    color: red;
     border: none;
     border-radius: 5px;
     font-size: 2rem;
@@ -99,9 +111,11 @@ button {
     margin-top: 5px;
     margin-left: 10px;
 }
+
 .note-btns {
     display:flex;
     justify-content: flex-end;
+    color: black;
 }
 
 footer {
