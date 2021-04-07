@@ -7,14 +7,14 @@
 
 .container{
     display: grid;
-    grid-template-columns: 5rem 1fr 5rem;
+    grid-template-rows: 5rem 1fr 5rem;
     grid-template-columns: minmax(0px, auto) 1fr;
     grid-template-areas: 
         's h'
         's m'
         's f';
-        width: 100vw;
-        height: 100vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header {
@@ -84,3 +84,13 @@ button {
     justify-content: flex-end;
 }
 
+footer {
+    grid-area: f;
+    background-color: ;
+    display: flex;
+    justify-content: center;
+}
+footer p {
+    color: ;
+    font-size: 2rem;
+}
